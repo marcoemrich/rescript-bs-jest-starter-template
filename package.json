@@ -1,0 +1,27 @@
+{
+  "name": "rescript-project-template",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "rescript",
+    "clean": "rescript clean -with-deps",
+    "start": "rescript build -w",
+    "test": "jest",
+    "test:watch": "jest --watchAll"
+  },
+  "keywords": [
+    "rescript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "rescript": "*"
+  },
+  "devDependencies": {
+    "@glennsl/bs-jest": "^0.7.0"
+  },
+  "jest": {
+    "testMatch": [
+      "**/?(*.)+(spec|test).bs.js"
+    ]
+  }
+}
